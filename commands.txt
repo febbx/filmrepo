@@ -2,9 +2,9 @@
 
 > git status [to list all untracked files]
 
-> git add-A [adding all untracked files to staging area]
+> git add -A [adding all untracked files to staging area]
 
-> git commit-m "commit message" [to commit added file to local repository]
+> git commit -m "commit message" [to commit added file to local repository]
 
 > git clone [to take exact copy from remote repository to local workspace]
 
@@ -17,3 +17,7 @@
 > git config --global user.name"username" [to set user name]
 
 >git-config --global user.email"useremail" [to set user email]
+
+> git remote add remote_name remote_path [to add remote]
+
+> git push remote_name branch 
